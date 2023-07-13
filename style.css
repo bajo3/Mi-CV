@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos interactivos */
+section {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+section:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
